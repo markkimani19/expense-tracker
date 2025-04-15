@@ -90,7 +90,7 @@ function App() {
             <tr key={expense.id}>
               <td>{expense.name}</td>
               <td>{expense.description}</td>
-              <td>${expense.amount}</td>
+              <td>Ksh.{expense.amount}</td>
             </tr>
           ))}
         </tbody>
